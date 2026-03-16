@@ -1,0 +1,26 @@
+# Arduino build files
+*.hex
+*.bin
+*.elf
+*.map
+
+# Arduino IDE temporary files
+*.tmp
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino CLI
+build/
