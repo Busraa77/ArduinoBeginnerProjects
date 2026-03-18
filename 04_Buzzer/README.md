@@ -24,6 +24,5 @@ Farklı frekanslarda sinyal göndererek melodi çalabilirsin. Bir hoparlör gibi
 https://github.com/user-attachments/assets/68e2d93f-058c-4f28-ba94-23a69044a4a9
 
 
-
 https://github.com/user-attachments/assets/2d494db3-0e6a-41a6-b3c9-90efe62aa3e3
 
