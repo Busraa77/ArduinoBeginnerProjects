@@ -1,6 +1,7 @@
 # Sıcaklık sensörü ile LCD ekrana veri yazma
 
 Projenin amacı sıcaklık sensörü ile sıcaklık ölçmek ve bunu Celcius veya Fahrenheit olarak buton aracılığıyla gösterebilmektir.
+Projede sıcaklık sensörü olarak LM35 kullanılmıştır.
 
 <img width="632" height="477" alt="Ekran görüntüsü 2026-05-01 155611" src="https://github.com/user-attachments/assets/66e9701d-522e-4f8d-ae7c-f984832c21be" />
 
