@@ -15,7 +15,7 @@ void setup() {
 }
 
 void loop() {
-  int sensor=analogRead(sensorPin);
+  float sensor=analogRead(sensorPin);
   int buttonState=digitalRead(buttonPin);
 
   if(buttonState)
@@ -37,11 +37,11 @@ void loop() {
 
 }
 
-void celsius(int sensor)
+void celsius(float sensor)
 {
   lcd.setCursor(0,0);
 
-  int temp= sensor * 0.097;
+  float celsius = sensor * (5.0 / 1023.0) * 100.0;
 
   lcd.print(temp);
   lcd.write(B11011111); //derece sembolü
@@ -66,11 +66,11 @@ void celsius(int sensor)
   lcd.print("C ");
 }
 
-void fahrenheit(int sensor)
+void fahrenheit(float sensor)
 {
   lcd.setCursor(0,0); //sütun satır
 
-  float temp=((sensor*0.097)*1.8)+32;
+ float temp = ((sensor * (5.0 * 100.0 / 1023.0)) * 1.8) + 32;
 
   lcd.print((int)temp);
   lcd.write(B11011111);
