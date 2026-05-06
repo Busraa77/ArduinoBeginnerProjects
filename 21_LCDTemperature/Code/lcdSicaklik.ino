@@ -41,7 +41,7 @@ void celsius(float sensor)
 {
   lcd.setCursor(0,0);
 
-  float celsius = sensor * (5.0 / 1023.0) * 100.0;
+  float celsius = sensor * (1.1 / 1023.0) * 100.0;
 
   lcd.print(temp);
   lcd.write(B11011111); //derece sembolü
@@ -70,7 +70,7 @@ void fahrenheit(float sensor)
 {
   lcd.setCursor(0,0); //sütun satır
 
- float temp = ((sensor * (5.0 * 100.0 / 1023.0)) * 1.8) + 32;
+ float temp = ((sensor * (1.1 * 100.0 / 1023.0)) * 1.8) + 32;
 
   lcd.print((int)temp);
   lcd.write(B11011111);
