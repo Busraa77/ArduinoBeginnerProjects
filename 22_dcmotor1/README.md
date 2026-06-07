@@ -35,7 +35,7 @@ PWM değeri 0’dan 255’e artırılarak motorun hızı kademeli olarak yüksel
 Daha sonra motor durdurulur ve kısa bir bekleme yapılır.  
 
 
-´´´ KOD
+``` KOD
 
 
 int in1=7;
@@ -62,6 +62,6 @@ void loop() {
   analogWrite(en, 0);   // motor stop
   delay(1000);
 }
-´´´
+```
 
 https://github.com/user-attachments/assets/fd79958e-4c7a-453e-ba45-74082df34cc7
