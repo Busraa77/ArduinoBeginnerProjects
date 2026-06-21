@@ -46,3 +46,23 @@ void loop() {
     delay(15);                       // Motorun konuma ulaşması için 15ms bekler
   }
 }
+```
+
+
+
+
+
+https://github.com/user-attachments/assets/de81ebee-6503-4b50-b16d-d4093ed49180
+
+
+
+https://github.com/user-attachments/assets/f8c9b967-fa81-4712-91c6-80af2d5462b8
+
+
+
+
+
+
+
+
+
